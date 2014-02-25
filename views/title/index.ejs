@@ -1,0 +1,8 @@
+<ul>
+  <% _.each( posts, function(post) { %>
+    <li>
+      <strong><%= post.title %>:</strong>
+      <%= post.body %>
+    </li>
+  <% }) %>
+</ul>
